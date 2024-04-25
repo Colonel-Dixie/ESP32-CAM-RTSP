@@ -1,3 +1,6 @@
+ *  Dont forget to put your SSID in the wifikeys
+ *  Dont forget to select the correct esp32cam bord you have
+ *  If you want to enable HTTP server remove the // from //#define ENABLE_WEBSERVER
  *  Board Settings:
  *  Board: "ESP32 Wrover Module"
  *  Upload Speed: "921600"
