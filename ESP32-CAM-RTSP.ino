@@ -1,15 +1,15 @@
- *  Dont forget to put your SSID in the wifikeys
- *  Dont forget to select the correct esp32cam bord you have
- *  If you want to enable HTTP server remove the // from //#define ENABLE_WEBSERVER
- *  Board Settings:
- *  Board: "ESP32 Wrover Module"
- *  Upload Speed: "921600"
- *  Flash Frequency: "80MHz"
- *  Flash Mode: "QIO"
- *  Partition Scheme: "Hue APP (3MB No OTA/1MB SPIFFS)"
- *  Core Debug Level: "None"
- *  COM Port: Depends *On Your System*
- *********************************************************************************************************************/
+// *  Dont forget to put your SSID in the wifikeys
+// *  Dont forget to select the correct esp32cam bord you have
+// *  If you want to enable HTTP server remove the // from //#define ENABLE_WEBSERVER
+// *  Board Settings:
+// *  Board: "ESP32 Wrover Module"
+// *  Upload Speed: "921600"
+// *  Flash Frequency: "80MHz"
+// *  Flash Mode: "QIO"
+// *  Partition Scheme: "Hue APP (3MB No OTA/1MB SPIFFS)"
+// *  Core Debug Level: "None"
+// *  COM Port: Depends *On Your System*
+// *********************************************************************************************************************/
  
 #include "src/OV2640.h"
 #include <WiFi.h>
